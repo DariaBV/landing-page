@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Open Sans', sans-serif;
+    --background-light: #b6b6b6;
+    --border-card: #919191;
+    --hover-effect: #161313;
+    --color-dark: #000;
+    --color-text-on-light: #616470;
+    --color-button: #959494;
+
+}
+
+.container {
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: -.03em;
+}

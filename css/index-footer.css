@@ -1,0 +1,29 @@
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    background-color: var(--background-light);
+    padding: 20px;
+}
+
+.footer__contacts-item {
+    display: flex;
+    justify-content: right;
+    margin-right: 15px;
+}
+
+.footer__nav-link {
+    text-decoration: none;
+    color: var(--color-dark);
+    margin: 0 10px;
+}
+
+.footer__contacts-copyright {
+    display: flex;
+    justify-content: right;
+}
+
+.footer__nav-link:hover {
+    color: var(--color-text-on-light);
+    text-decoration: underline;
+}

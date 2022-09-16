@@ -1,0 +1,28 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact__image {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__icon {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.email-form input[type='email'] {
+    max-width: 350px;
+    width: 100%;
+    padding: 5px;
+}
+
+.email-form {
+    text-align: center;
+}
